@@ -1,0 +1,39 @@
+<div class="container">
+
+<section id="camp-activities-inquiry">
+
+  <h1>Camp Activities Inquiry</h1>
+
+  <form action="/submit-form" method="POST">
+
+    <label for="activity-select">Which camp activities are you most looking forward to?</label>
+    <br><br>
+    <select id="activity-select" name="activity">
+
+      <option value="">--Please choose an option--</option>
+
+      <option value="hiking">Hiking</option>
+
+      <option value="canoeing">Canoeing</option>
+
+      <option value="fishing">Fishing</option>
+
+      <option value="crafts">Crafts</option>
+
+      <option value="archery">Archery</option>
+
+    </select>
+    <br><br>
+    <label for="food-allergies">Food Allergies (if any)</label>
+    <br><br>
+    <textarea id="food-allergies" name="food_allergies" rows="4" cols="50"></textarea>
+    <br><br>
+    <label for="additional-info">Additional things the counselor should know</label>
+    <br><br>
+    <textarea id="additional-info" name="additional_info" rows="4" cols="50"></textarea>
+    <br><br>
+    <button type="submit">Submit</button>
+
+  </form>
+</div>
+</section>
